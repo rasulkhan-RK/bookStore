@@ -30,8 +30,10 @@ Clone the repository.
 
 Usage
 
-• Start the backend server.
+• Start the backend server
+
+• Start the frontend application.
 
 ![Screenshot 2025-01-22 143622](https://github.com/user-attachments/assets/79f46557-c289-473b-b11c-53f7c45c5d86)
 
-• Start the frontend application.
+
