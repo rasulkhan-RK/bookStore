@@ -6,10 +6,11 @@ import Roots from "./components/root/Roots";
 import Course from "./components/Course";
 import { Toaster } from "react-hot-toast";
 import { useAuth } from "./components/context/AuthProvider";
-import Signup from "./components/register/Signup";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import ErrorPage from "./components/404Page";
+import Login from "./components/register/Login";
+import Signup from "./components/register/Signup";
 
 function App() {
   const [authUsers, setAuthUsers] = useAuth();

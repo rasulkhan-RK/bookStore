@@ -42,9 +42,12 @@ function Signup({ isRegistered }) {
         <div id="my_modal_3" className="">
           <div className="modal-box md:w-[480px] dark:bg-slate-900 dark:text-white bg-white text-black">
             <form method="dialog">
-              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+              <Link
+                to={"/"}
+                className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+              >
                 ✕
-              </button>
+              </Link>
             </form>
 
             <h3 className="font-bold mb-5 text-lg">
