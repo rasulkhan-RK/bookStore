@@ -9,7 +9,7 @@ function Course() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:4000/book");
+        const res = await axios.get("https://book-store-backend-nu-gilt.vercel.app/book");
         setData(res.data);
       } catch (error) {
         console.log("Error:", error);
