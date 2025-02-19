@@ -48,7 +48,7 @@ function Freebook() {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const res = await axios.get("http://localhost:4000/book");
+        const res = await axios.get("https://book-store-backend-nu-gilt.vercel.app/book");
         const data = res.data.filter((item) => item.catogery === "Free");
         setData(data);
         setLoading(false);
