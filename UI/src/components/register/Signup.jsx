@@ -19,7 +19,7 @@ function Signup({ isRegistered }) {
       password: data.password,
     };
     await axios
-      .post("http://localhost:4000/user/signup", userInfo)
+      .post("https://book-store-backend-nu-gilt.vercel.app/user/signup", userInfo)
       .then((res) => {
         const data = res.data;
         if (data) {
