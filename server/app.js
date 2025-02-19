@@ -29,6 +29,9 @@ try {
 }
 
 //conectig routes
+app.get("/", (req, res) => {
+  res.send("API WORKING")
+})
 app.use("/book", bookRoute);
 app.use("/user", userRouter);
 
